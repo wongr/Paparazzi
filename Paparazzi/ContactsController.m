@@ -3,7 +3,7 @@
 //  Paparazzi
 //
 //  Created by Wang Ran on 11-5-15.
-//  Copyright 2011年 buding. All rights reserved.
+//  Copyright 2011年 by creatingev!!! ： ）. All rights reserved.
 //
 
 #import "ContactsController.h"
