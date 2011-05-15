@@ -14,6 +14,13 @@
 		25922CA3138019EC00064575 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25922CA2138019EC00064575 /* main.m */; };
 		25922CA6138019EC00064575 /* PaparazziAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25922CA5138019EC00064575 /* PaparazziAppDelegate.m */; };
 		25922CA9138019EC00064575 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25922CA7138019EC00064575 /* MainWindow.xib */; };
+		25922CB213801D9300064575 /* ContactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25922CB013801D9300064575 /* ContactsController.m */; };
+		25922CB313801D9300064575 /* ContactsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25922CB113801D9300064575 /* ContactsController.xib */; };
+		25922CB71380217400064575 /* UserPhotosController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25922CB51380217300064575 /* UserPhotosController.m */; };
+		25922CB81380217400064575 /* UserPhotosController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25922CB61380217300064575 /* UserPhotosController.xib */; };
+		25922CBC1380254200064575 /* BigPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25922CBA1380254100064575 /* BigPhotoController.m */; };
+		25922CBD1380254200064575 /* BigPhotoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25922CBB1380254100064575 /* BigPhotoController.xib */; };
+		25922CBF1380290B00064575 /* pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 25922CBE1380290B00064575 /* pic.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +28,23 @@
 		25922C95138019EC00064575 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		25922C97138019EC00064575 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		25922C99138019EC00064575 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		25922C9D138019EC00064575 /* Paparazzi-Info.plist */ = {isa = PBXFileReference; path = "Paparazzi-Info.plist"; sourceTree = "<group>"; };
+		25922C9D138019EC00064575 /* Paparazzi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Paparazzi-Info.plist"; sourceTree = "<group>"; };
 		25922C9F138019EC00064575 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		25922CA1138019EC00064575 /* Paparazzi-Prefix.pch */ = {isa = PBXFileReference; path = "Paparazzi-Prefix.pch"; sourceTree = "<group>"; };
+		25922CA1138019EC00064575 /* Paparazzi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Paparazzi-Prefix.pch"; sourceTree = "<group>"; };
 		25922CA2138019EC00064575 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		25922CA4138019EC00064575 /* PaparazziAppDelegate.h */ = {isa = PBXFileReference; path = PaparazziAppDelegate.h; sourceTree = "<group>"; };
+		25922CA4138019EC00064575 /* PaparazziAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaparazziAppDelegate.h; sourceTree = "<group>"; };
 		25922CA5138019EC00064575 /* PaparazziAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaparazziAppDelegate.m; sourceTree = "<group>"; };
 		25922CA8138019EC00064575 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		25922CAF13801D9300064575 /* ContactsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsController.h; sourceTree = "<group>"; };
+		25922CB013801D9300064575 /* ContactsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsController.m; sourceTree = "<group>"; };
+		25922CB113801D9300064575 /* ContactsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactsController.xib; sourceTree = "<group>"; };
+		25922CB41380217300064575 /* UserPhotosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPhotosController.h; sourceTree = "<group>"; };
+		25922CB51380217300064575 /* UserPhotosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPhotosController.m; sourceTree = "<group>"; };
+		25922CB61380217300064575 /* UserPhotosController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserPhotosController.xib; sourceTree = "<group>"; };
+		25922CB91380254100064575 /* BigPhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigPhotoController.h; sourceTree = "<group>"; };
+		25922CBA1380254100064575 /* BigPhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigPhotoController.m; sourceTree = "<group>"; };
+		25922CBB1380254100064575 /* BigPhotoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BigPhotoController.xib; sourceTree = "<group>"; };
+		25922CBE1380290B00064575 /* pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +92,19 @@
 			isa = PBXGroup;
 			children = (
 				25922CA4138019EC00064575 /* PaparazziAppDelegate.h */,
+				25922CBE1380290B00064575 /* pic.png */,
 				25922CA5138019EC00064575 /* PaparazziAppDelegate.m */,
 				25922CA7138019EC00064575 /* MainWindow.xib */,
+				25922CAF13801D9300064575 /* ContactsController.h */,
+				25922CB013801D9300064575 /* ContactsController.m */,
+				25922CB113801D9300064575 /* ContactsController.xib */,
+				25922CB91380254100064575 /* BigPhotoController.h */,
+				25922CBA1380254100064575 /* BigPhotoController.m */,
+				25922CBB1380254100064575 /* BigPhotoController.xib */,
 				25922C9C138019EC00064575 /* Supporting Files */,
+				25922CB41380217300064575 /* UserPhotosController.h */,
+				25922CB51380217300064575 /* UserPhotosController.m */,
+				25922CB61380217300064575 /* UserPhotosController.xib */,
 			);
 			path = Paparazzi;
 			sourceTree = "<group>";
@@ -142,6 +169,10 @@
 			files = (
 				25922CA0138019EC00064575 /* InfoPlist.strings in Resources */,
 				25922CA9138019EC00064575 /* MainWindow.xib in Resources */,
+				25922CB313801D9300064575 /* ContactsController.xib in Resources */,
+				25922CB81380217400064575 /* UserPhotosController.xib in Resources */,
+				25922CBD1380254200064575 /* BigPhotoController.xib in Resources */,
+				25922CBF1380290B00064575 /* pic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +185,9 @@
 			files = (
 				25922CA3138019EC00064575 /* main.m in Sources */,
 				25922CA6138019EC00064575 /* PaparazziAppDelegate.m in Sources */,
+				25922CB213801D9300064575 /* ContactsController.m in Sources */,
+				25922CB71380217400064575 /* UserPhotosController.m in Sources */,
+				25922CBC1380254200064575 /* BigPhotoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

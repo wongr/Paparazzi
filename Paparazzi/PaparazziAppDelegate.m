@@ -7,6 +7,8 @@
 //
 
 #import "PaparazziAppDelegate.h"
+#import "ContactsController.h"
+#import "UserPhotosController.h"
 
 @implementation PaparazziAppDelegate
 
@@ -15,6 +17,47 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //make 2 nav controllers
+    peopleController = [[UINavigationController alloc]init];
+
+    recentController = [[UINavigationController alloc]init];
+    
+    //make a contacts controller, and put it in the first nav
+    ContactsController* contactsController = [[ContactsController alloc]initWithNibName:@"ContactsController" bundle:[NSBundle mainBundle]];
+    contactsController.title = @"Contacts";
+    
+    //make a tab bar item for contacts
+    UITabBarItem* item = [[UITabBarItem alloc]initWithTabBarSystemItem:UITabBarSystemItemContacts tag:0];
+    contactsController.tabBarItem = item;
+    [item release];
+    
+    [peopleController pushViewController:contactsController animated:NO];
+    [contactsController release];
+
+    //create user photos controller
+    UserPhotosController* userPhotosController = [[UserPhotosController alloc]initWithNibName:@"UserPhotosController" bundle:[NSBundle mainBundle]];
+    
+    //make a tab bar item for contacts
+    item = [[UITabBarItem alloc]initWithTabBarSystemItem:UITabBarSystemItemContacts tag:0];
+    userPhotosController.tabBarItem = item;
+    [item release];
+    
+    //give it a titluserPhotosController - recent
+    recentController.title = @"Recents";
+    
+    //push it onto the second nav controller and free memory
+    [recentController pushViewController: userPhotosController animated:NO];
+    [userPhotosController release];
+    
+    //make a tab controller
+    tabController = [[UITabBarController alloc]init];
+
+    //put the nav controllers in the tab controller
+    tabController.viewControllers = [NSArray arrayWithObjects:peopleController, recentController, nil];
+    
+    //put the view of the tab controller in the window
+    [self.window addSubview:tabController.view];
+    
     // Override point for customization after application launch.
     [self.window makeKeyAndVisible];
     return YES;
@@ -61,6 +104,10 @@
 
 - (void)dealloc
 {
+    [peopleController release];
+    [recentController release];
+    [tabController release];
+
     [_window release];
     [super dealloc];
 }

@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface PaparazziAppDelegate : NSObject <UIApplicationDelegate> {
-
+    UITabBarController* tabController;
+    UINavigationController* peopleController;
+    UINavigationController* recentController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
