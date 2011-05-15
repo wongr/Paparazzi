@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25922C96138019EC00064575 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25922C95138019EC00064575 /* UIKit.framework */; };
+		25922C98138019EC00064575 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25922C97138019EC00064575 /* Foundation.framework */; };
+		25922C9A138019EC00064575 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25922C99138019EC00064575 /* CoreGraphics.framework */; };
+		25922CA0138019EC00064575 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25922C9E138019EC00064575 /* InfoPlist.strings */; };
+		25922CA3138019EC00064575 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25922CA2138019EC00064575 /* main.m */; };
+		25922CA6138019EC00064575 /* PaparazziAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25922CA5138019EC00064575 /* PaparazziAppDelegate.m */; };
+		25922CA9138019EC00064575 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25922CA7138019EC00064575 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25922C91138019EC00064575 /* Paparazzi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paparazzi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25922C95138019EC00064575 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25922C97138019EC00064575 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25922C99138019EC00064575 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25922C9D138019EC00064575 /* Paparazzi-Info.plist */ = {isa = PBXFileReference; path = "Paparazzi-Info.plist"; sourceTree = "<group>"; };
+		25922C9F138019EC00064575 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25922CA1138019EC00064575 /* Paparazzi-Prefix.pch */ = {isa = PBXFileReference; path = "Paparazzi-Prefix.pch"; sourceTree = "<group>"; };
+		25922CA2138019EC00064575 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25922CA4138019EC00064575 /* PaparazziAppDelegate.h */ = {isa = PBXFileReference; path = PaparazziAppDelegate.h; sourceTree = "<group>"; };
+		25922CA5138019EC00064575 /* PaparazziAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaparazziAppDelegate.m; sourceTree = "<group>"; };
+		25922CA8138019EC00064575 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25922C8E138019EC00064575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25922C96138019EC00064575 /* UIKit.framework in Frameworks */,
+				25922C98138019EC00064575 /* Foundation.framework in Frameworks */,
+				25922C9A138019EC00064575 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25922C86138019EC00064575 = {
+			isa = PBXGroup;
+			children = (
+				25922C9B138019EC00064575 /* Paparazzi */,
+				25922C94138019EC00064575 /* Frameworks */,
+				25922C92138019EC00064575 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25922C92138019EC00064575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25922C91138019EC00064575 /* Paparazzi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25922C94138019EC00064575 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25922C95138019EC00064575 /* UIKit.framework */,
+				25922C97138019EC00064575 /* Foundation.framework */,
+				25922C99138019EC00064575 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25922C9B138019EC00064575 /* Paparazzi */ = {
+			isa = PBXGroup;
+			children = (
+				25922CA4138019EC00064575 /* PaparazziAppDelegate.h */,
+				25922CA5138019EC00064575 /* PaparazziAppDelegate.m */,
+				25922CA7138019EC00064575 /* MainWindow.xib */,
+				25922C9C138019EC00064575 /* Supporting Files */,
+			);
+			path = Paparazzi;
+			sourceTree = "<group>";
+		};
+		25922C9C138019EC00064575 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25922C9D138019EC00064575 /* Paparazzi-Info.plist */,
+				25922C9E138019EC00064575 /* InfoPlist.strings */,
+				25922CA1138019EC00064575 /* Paparazzi-Prefix.pch */,
+				25922CA2138019EC00064575 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25922C90138019EC00064575 /* Paparazzi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25922CAC138019EC00064575 /* Build configuration list for PBXNativeTarget "Paparazzi" */;
+			buildPhases = (
+				25922C8D138019EC00064575 /* Sources */,
+				25922C8E138019EC00064575 /* Frameworks */,
+				25922C8F138019EC00064575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paparazzi;
+			productName = Paparazzi;
+			productReference = 25922C91138019EC00064575 /* Paparazzi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25922C88138019EC00064575 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 25922C8B138019EC00064575 /* Build configuration list for PBXProject "Paparazzi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25922C86138019EC00064575;
+			productRefGroup = 25922C92138019EC00064575 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25922C90138019EC00064575 /* Paparazzi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25922C8F138019EC00064575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25922CA0138019EC00064575 /* InfoPlist.strings in Resources */,
+				25922CA9138019EC00064575 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25922C8D138019EC00064575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25922CA3138019EC00064575 /* main.m in Sources */,
+				25922CA6138019EC00064575 /* PaparazziAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25922C9E138019EC00064575 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25922C9F138019EC00064575 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25922CA7138019EC00064575 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25922CA8138019EC00064575 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25922CAA138019EC00064575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25922CAB138019EC00064575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		25922CAD138019EC00064575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Paparazzi/Paparazzi-Prefix.pch";
+				INFOPLIST_FILE = "Paparazzi/Paparazzi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25922CAE138019EC00064575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Paparazzi/Paparazzi-Prefix.pch";
+				INFOPLIST_FILE = "Paparazzi/Paparazzi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25922C8B138019EC00064575 /* Build configuration list for PBXProject "Paparazzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25922CAA138019EC00064575 /* Debug */,
+				25922CAB138019EC00064575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25922CAC138019EC00064575 /* Build configuration list for PBXNativeTarget "Paparazzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25922CAD138019EC00064575 /* Debug */,
+				25922CAE138019EC00064575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25922C88138019EC00064575 /* Project object */;
+}
